@@ -31,7 +31,7 @@ num_classes = y_test.shape[1]
 inputShape = (28,28,1)
 
 
-# define a simple CNN model
+# define a LeNet CNN model in keras
 def lenet_model():
     # create model
     model = Sequential()
